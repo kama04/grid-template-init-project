@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport">
+  <meta content="Web development services and skills showcase" name="description">
+  <link href="assets/images/favicon.png" rel="shortcut icon" type="image/png">
+  <!-- Подключаем шрифты Roboto и Roboto Slab c сервиса google -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Подключаем иконочный шрифт fontawesome -->
+  <link href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <!-- Подключаем наш основной стиль, с которым будем работать -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <title>GRID-TEMPLATE</title>
+</head>
+
+<body>
+  <header class="header">
+
+    <!-- header__content -->
+    <div class="header__content">
+      <div class="header__content-container">
+        <h1 class="header__content-title">WE ARE REAL WEB-DEVELOPERS</h1>
+        <div class="header__content-actions">
+          <a class="btn btn--light" href="">Learn more</a>
+          <a class="btn btn--light" href="">Get started</a>
+        </div>
+      </div>
+    </div><!-- header__content end -->
+
+    <!-- header__menu -->
+    <div class="header__menu">
+      <div class="header__menu-container">
+        <div class="header__logo">
+          <a class="header__logo-link" href=""><span class="header__logo-accent">SITE</span>LOGO</a>
+        </div>
+        <nav class="header__navbar" aria-label="Головна навігація">
+          <button class="header__navbar-btn" aria-controls="nav-menu" aria-expanded="false" aria-label="Відкрити меню">
+            <span class="header__navbar-btn-row"></span>
+            <span class="header__navbar-btn-row"></span>
+            <span class="header__navbar-btn-row"></span>
+          </button>
+          <ol class="header__navbar-list" id="nav-menu">
+            <li class="header__navbar-item">
+              <a class="header__navbar-link" href="">Home</a>
+            </li>
+            <li class="header__navbar-item">
+              <a class="header__navbar-link" href="">About</a>
+            </li>
+            <li class="header__navbar-item">
+              <a class="header__navbar-link" href="">Contacts</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- header__menu end -->
+
+    <!-- header__overlay -->
+    <div class="header__overlay"></div>
+
+  </header>
+
+  <script src="assets/vendors/jquery/jquery.min.js"></script>
+  <!-- Подключаем наш основной скрипт, с которым будем работать -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
